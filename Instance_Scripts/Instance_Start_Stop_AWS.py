@@ -3,7 +3,7 @@ import boto3
 from botocore.exceptions import ClientError
 
 instance_id = "i-02f2ce0986cf70122"
-action = "ON"
+action = "OFF"
 
 ec2 = boto3.client('ec2', region_name='ap-south-1')
 
